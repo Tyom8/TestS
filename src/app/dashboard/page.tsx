@@ -2,8 +2,8 @@ import React from "react";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import Header from "../components/header/header";
-import styles from "./dashboard.module.css";
 import IndustriesCard from "../components/industriesCard/industriesCard";
+import styles from "./dashboard.module.css";
 
 const DashboardPage: React.FC = async () => {
   const cookieStore = await cookies();

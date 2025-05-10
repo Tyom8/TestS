@@ -121,6 +121,7 @@ const IndustriesCard: React.FC = () => {
             selectedIndustries.length ? styles.continueButton : undefined
           }
           disabled={selectedIndustries.length ? false : true}
+          selInductries={selectedIndustries.length ? true : false}
         />
       </div>
     </div>

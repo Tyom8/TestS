@@ -7,6 +7,7 @@ interface IProps {
   disabled?: boolean;
   type?: "button" | "submit" | "reset";
   className?: string;
+  selInductries?: boolean;
 }
 
 const MainButton = ({
@@ -15,6 +16,7 @@ const MainButton = ({
   disabled = false,
   type = "button",
   className,
+  selInductries,
 }: IProps) => {
   return (
     <button
@@ -22,6 +24,7 @@ const MainButton = ({
       disabled={disabled}
       className={` ${styles.container} ${className}`}
       type={type}
+      style={{ backgroundColor: selInductries ? "#52409A" : undefined }}
     >
       {title}
     </button>
