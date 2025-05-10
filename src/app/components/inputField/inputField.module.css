@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inputContainer {
+  width: 100%;
+  padding: 12px 16px 12px 16px;
+  border: 2px solid #272938;
+  border-radius: 10px;
+  background: #151620;
+  color: white;
+  font-size: 16px;
+  &::placeholder {
+    color: #524A69;
+  }
+  &:active {
+    border: none;
+  }
+}
+
+.leftIcon {
+  position: absolute;
+  left: 16px;
+}
+
+.rigthIconContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rigthIcon {
+  position: absolute;
+  right: 16px;
+}

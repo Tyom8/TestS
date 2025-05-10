@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 15px 32px;
+  border-bottom: 0.5px solid #6a596c;
+  gap: 24px;
+}
+.infoContainer {
+  display: flex;
+  gap: 12px;
+}
+.loggedText {
+  font-size: 15px;
+  font-weight: 400;
+  color: #aeacb2;
+}
+.emailText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #d0cfd1;
+}
+.logoutContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.logoutText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a194d2;
+}

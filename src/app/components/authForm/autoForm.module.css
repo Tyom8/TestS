@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+}
+
+.selectContainer {
+  display: flex;
+  width: 100%;
+  background-color: #3e529833;
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.selectButton {
+  width: 100%;
+  padding: 13.5px 0;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  border-width: 0;
+  cursor: pointer;
+}
